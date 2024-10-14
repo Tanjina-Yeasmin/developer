@@ -146,16 +146,6 @@ gap: 10px;
     border-radius: 10px;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-}
-
- ul > li{
-    display: inline;
-    text-decoration: none;
- }
-
  #development{
     height: 100%;
  }
@@ -169,6 +159,114 @@ gap: 10px;
  .change-container{
     display: flex;
  }
+ .next-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+ }
+.next-description{
+    text-align: center;
+}
+.target-row-container{
 
+}
 
+.target-1st-row{
+    display: flex;
+    gap: 60px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.target-2nd-row{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+}
+
+.target-3rd-row{
+display: flex;
+gap: 55px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+
+}
+
+#support-section{
+    background-image: url(../images/handshake.jpg);
+    position: absolute;
+width: 1140px;
+height: 313px;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
+.support{
+    justify-content: center;
+    align-items: center;
+}
+
+.support-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
  
+.support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.input-filed{
+position: static;
+width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.submit-btnn{
+position: static;
+width: 120px;
+height: 57px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+#support-section{
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ ul > li{
+    display: inline;
+    text-decoration: none;
+ }
