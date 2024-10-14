@@ -156,4 +156,19 @@ gap: 10px;
     text-decoration: none;
  }
 
+ #development{
+    height: 100%;
+ }
+ .code-container{
+    display: flex;
+ }
+ .create-container{
+    display: flex;
+ }
+ 
+ .change-container{
+    display: flex;
+ }
+
+
  
