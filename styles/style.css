@@ -26,6 +26,12 @@
     display: flex;
     justify-content: space-between;
  }
+ .nav-btn{
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   border-radius: 8px;
+   opacity: 0.8;
+ }
 
  #hero{
     height: 694px;
@@ -35,21 +41,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: dashed;
+    border: darkgray dashed;
     margin: 10px 0px;
     
  }
 
  #hero .hero-container{
-    width: 1064px;
+    width: 100%;
 
  }
-
- #hero .dev-img{
-    height: 220px;
-    width: 220px;
-    justify-content: center;
-    align-items: center;
+ .dev-imag{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
  }
 
  #hero .title{
@@ -71,6 +78,52 @@ text-align: center;
 margin-bottom: 40px;
 
  }
+
+ .web-description{
+   justify-content: center;
+   text-align: center;
+ }
+
+ .web-title{
+ color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+ }
+
+ .web-subtitle{
+   color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+ }
+.btn-learn{
+gap: 10;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.btn-learn-1{
+   gap: 10;
+   padding: 12px 20px 12px 20px;
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   
+   }
+
+   .btn-learn-2{
+      gap: 10;
+      padding: 12px 20px 12px 20px;
+      box-sizing: border-box;
+      border: 1px solid rgb(13, 19, 33);
+      opacity: 0.7;
+      
+      }
 
  #target-box{
     width: 100%
@@ -158,6 +211,23 @@ gap: 10px;
  
  .change-container{
     display: flex;
+ }
+
+ .code-title .create-title .change-title{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .code-subtitle .create-subtitle .change-subtitle{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
  }
  .next-title{
     color: rgb(13, 19, 33);
