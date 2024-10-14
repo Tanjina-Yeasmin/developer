@@ -5,6 +5,155 @@
     font-family: "Azeret Mono", monospace;
  }
 
+ .btn{
+    padding: 10px 24px 10px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+ }
+
+ .btn-container{
+    text-align: center;
+    
+ }
+
  nav{
     display: flex;
+    justify-content: space-between;
  }
+
+ #hero{
+    height: 694px;
+    background-image: url("../images/Hero-bg.png") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed;
+    margin: 10px 0px;
+    
+ }
+
+ #hero .hero-container{
+    width: 1064px;
+
+ }
+
+ #hero .dev-img{
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #hero .title{
+color: rgb(13, 19, 33);
+font-size: 38px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+ }
+
+ #hero .subtitle{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 40px;
+
+ }
+
+ #target-box{
+    width: 100%
+    
+ }
+
+ #target-box .info{
+justify-content: center;
+text-align: center;
+margin-bottom: 10px;
+ }
+
+ #target-box .target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    
+ }
+
+ #taget-box .target-subtitle{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+    
+ }
+
+ .target-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+ }
+ 
+ .color-html{
+    background-color: bisque;
+    border-radius: 15px;
+ }
+ .color-css{
+    background-color: aquamarine;
+    border-radius: 15px;
+ }
+
+ .color-js{
+    background-color: bisque;
+    border-radius: 15px;
+ }
+ .target-card{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 10px;
+ }
+ #inspiration{
+width: 100%;
+justify-content: center;
+text-align: center;
+gap: 10px;
+ }
+#inspiration .ins-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.ins-video{
+    border-radius: 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ ul > li{
+    display: inline;
+    text-decoration: none;
+ }
+
+ 
